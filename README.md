@@ -1,5 +1,6 @@
 # auto-fish (WIP)
 fish with grace in dead catapillar.
+EE，EEEE
 ## Usage
 *python 3.11 recommended!*  
 ```
@@ -12,6 +13,3 @@ python fish.py
 | ----------- | ----------- |
 | Y | Enable/disable detection |
 | Q | Exit |
-  
-于丁一别🦌了  
-sulianjs荣获最佳唐人奖
