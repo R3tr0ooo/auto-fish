@@ -1,8 +1,8 @@
 # auto-fish
 fish with grace in dead catapillar.
 ## Usage
-*python 3.11 recommended!*
-`pip install -r requirements.txt`
+*python 3.11 recommended!* \n
+`pip install -r requirements.txt` \n
 `python fish.py`
 | controls | function |
 | ----------- | ----------- |
