@@ -13,4 +13,5 @@ python fish.py
 | Y | Enable/disable detection |
 | Q | Exit |
   
-于丁一别🦌了
+于丁一别🦌了  
+sulianjs荣获最佳唐人奖

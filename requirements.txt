@@ -1,1 +1,1 @@
-mss pyautogui numpy
+pyautogui numpy mss

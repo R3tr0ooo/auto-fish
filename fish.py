@@ -126,7 +126,7 @@ while True:
     time.sleep(1)
     #第二次抓取屏幕图像，判断是否出现QTE（未实现）
     print("[INFO]Detecting QTE presence.")
-    img = np.array(sct.grab(monitor))          # BGR 格式的 ndarray (h, w, 4)
+    img = np.array(sct.grab(monitor))          
     frame = cv2.cvtColor(img, cv2.COLOR_BGRA2BGR)
     hsv = cv2.cvtColor(frame, cv2.COLOR_BGR2HSV)
     maskqte = cv2.inRange(hsv, LOW_QTE, HIGH_QTE)
@@ -138,7 +138,7 @@ while True:
         print("[INFO]Detected QTE")
         while True:
             # xxxc stands for xxx for comparison
-            imgc = np.array(sct.grab(monitor))          # BGR 格式的 ndarray (h, w, 4)
+            imgc = np.array(sct.grab(monitor))          
             framec = cv2.cvtColor(imgc, cv2.COLOR_BGRA2BGR)
             hsvc = cv2.cvtColor(framec, cv2.COLOR_BGR2HSV)
             maskqtec = cv2.inRange(hsvc, LOW_QTE, HIGH_QTE)
