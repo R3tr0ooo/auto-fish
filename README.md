@@ -1,4 +1,4 @@
-# auto-fish
+# auto-fish (WIP)
 fish with grace in dead catapillar.
 ## Usage
 *python 3.11 recommended!*  
